@@ -13,3 +13,37 @@
  *= require_tree .
  *= require_self
  */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.grid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 70vw;
+}
+
+.letter {
+  color: white;
+  background-color: #0596DF;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+  padding: 5px;
+  margin: 10px;
+  font-size: 32px;
+  min-width: 50px;
+  max-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+form {
+  margin-top: 20px;
+}
+
+.word {
+  min-width: 300px;
+}
